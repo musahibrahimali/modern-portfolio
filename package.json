@@ -1,0 +1,17 @@
+{
+  "name": "modern-portfolo",
+  "version": "1.0.0",
+  "description": "musah ibrahim ali's official modern portfolio website",
+  "main": "index.js",
+  "homepage" : "https://MIA-GH.github.io/mia-portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy" : "gh-pages -d dist"
+  },
+  "author": "musah ibrahim ali",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
